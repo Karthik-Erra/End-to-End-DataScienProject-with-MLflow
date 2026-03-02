@@ -1,0 +1,30 @@
+[2026-03-02 23:48:56,292] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:48:56,292] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:48:56,296] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:48:56,296] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 23:48:56,296] 20 root - INFO - file already exist
+[2026-03-02 23:48:56,296] 13 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 23:48:56,304] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:48:56,305] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:48:56,307] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:48:56,309] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 23:48:56,340] 24 root - INFO - stage: Data Validation Stage Completed
+
+
+[2026-03-02 23:48:56,340] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:48:56,344] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:48:56,347] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:48:56,348] 46 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-02 23:48:56,375] 19 root - INFO - Splitting data into training and test sets
+[2026-03-02 23:48:56,375] 20 root - INFO - (1199, 12)
+[2026-03-02 23:48:56,375] 21 root - INFO - (400, 12)
+[2026-03-02 23:48:56,375] 34 root - INFO - Stage: Data Transformation Stage Completed
+
+
+[2026-03-02 23:48:56,380] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:48:56,381] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:48:56,384] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:48:56,386] 46 root - INFO - Created directory at: artifacts/model_trainer
+[2026-03-02 23:48:56,622] 44 root - INFO - Stage: Model Training Stage Completed

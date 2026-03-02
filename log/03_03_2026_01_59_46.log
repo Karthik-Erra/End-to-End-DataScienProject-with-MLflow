@@ -1,0 +1,9 @@
+[2026-03-03 01:59:46,917] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-03-03 01:59:46,927] 97 werkzeug - INFO -  * Debugger PIN: 715-582-652
+[2026-03-03 01:59:57,636] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 01:59:57] "GET / HTTP/1.1" 200 -
+[2026-03-03 02:00:34,388] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:00:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2026-03-03 02:00:34,816] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:00:34] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-03-03 02:00:34,904] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:00:34] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-03-03 02:00:35,325] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:00:35] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=2OGxET15xEMjtoFS6GCT HTTP/1.1" 200 -
+[2026-03-03 02:00:35,523] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:00:35] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-03-03 02:03:10,920] 97 werkzeug - INFO -  * Detected change in 'D:\\GenAI_Projects_by_Krishna_Naik\\End_to_End_project_with_Pipelines_and_MLFLow\\app.py', reloading

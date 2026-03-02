@@ -1,0 +1,13 @@
+[2026-03-02 22:16:59,538] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:16:59,538] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:16:59,538] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:16:59,538] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 22:16:59,538] 20 root - INFO - file already exist
+[2026-03-02 22:16:59,538] 12 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 22:16:59,550] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:16:59,551] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:16:59,553] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:16:59,554] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 22:16:59,556] 25 root - INFO - DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir'

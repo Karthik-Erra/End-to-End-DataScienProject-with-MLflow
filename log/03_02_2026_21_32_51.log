@@ -1,0 +1,15 @@
+[2026-03-02 21:32:57,891] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 21:32:57,905] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 21:32:57,905] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 21:32:57,905] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 21:32:57,905] 20 root - INFO - file already exist
+[2026-03-02 21:32:58,010] 11 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 21:32:58,022] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 21:32:58,027] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 21:32:58,027] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 21:32:58,027] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 21:32:58,226] 22 root - INFO - stage: Data Validation Stage Completed
+
+

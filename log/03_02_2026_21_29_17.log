@@ -1,0 +1,13 @@
+[2026-03-02 21:29:18,569] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 21:29:18,569] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 21:29:18,569] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 21:29:18,569] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 21:29:18,569] 20 root - INFO - file already exist
+[2026-03-02 21:29:18,581] 11 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 21:29:18,585] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 21:29:18,587] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 21:29:18,590] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 21:29:18,591] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 21:29:18,592] 24 root - INFO - "'ConfigBox' object has no attribute 'unzip_dir'"

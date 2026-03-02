@@ -1,0 +1,25 @@
+[2026-03-02 22:22:14,971] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:22:14,972] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:22:14,973] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:22:14,973] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 22:22:14,973] 20 root - INFO - file already exist
+[2026-03-02 22:22:14,973] 12 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 22:22:14,981] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:22:14,981] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:22:14,983] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:22:14,984] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 22:22:15,012] 23 root - INFO - stage: Data Validation Stage Completed
+
+
+[2026-03-02 22:22:15,015] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:22:15,017] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:22:15,019] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:22:15,019] 46 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-02 22:22:15,442] 19 root - INFO - Splitting data into training and test sets
+[2026-03-02 22:22:15,442] 20 root - INFO - (1199, 12)
+[2026-03-02 22:22:15,442] 21 root - INFO - (400, 12)
+[2026-03-02 22:22:15,442] 33 root - INFO - Stage: Data Transformation Stage Completed
+
+

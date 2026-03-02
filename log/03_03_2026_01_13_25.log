@@ -1,0 +1,35 @@
+[2026-03-03 01:13:46,114] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-03 01:13:46,135] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-03 01:13:46,138] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-03 01:13:46,145] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-03 01:13:46,146] 20 root - INFO - file already exist
+[2026-03-03 01:13:46,220] 14 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-03 01:13:46,223] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-03 01:13:46,224] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-03 01:13:46,228] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-03 01:13:46,231] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-03 01:13:46,334] 25 root - INFO - stage: Data Validation Stage Completed
+
+
+[2026-03-03 01:13:46,340] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-03 01:13:46,342] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-03 01:13:46,343] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-03 01:13:46,347] 46 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-03 01:13:46,518] 19 root - INFO - Splitting data into training and test sets
+[2026-03-03 01:13:46,518] 20 root - INFO - (1199, 12)
+[2026-03-03 01:13:46,518] 21 root - INFO - (400, 12)
+[2026-03-03 01:13:46,518] 35 root - INFO - Stage: Data Transformation Stage Completed
+
+
+[2026-03-03 01:13:46,518] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-03 01:13:46,526] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-03 01:13:46,529] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-03 01:13:46,529] 46 root - INFO - Created directory at: artifacts/model_trainer
+[2026-03-03 01:13:46,754] 45 root - INFO - Stage: Model Training Stage Completed
+[2026-03-03 01:13:46,764] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-03 01:13:46,767] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-03 01:13:46,777] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-03 01:13:46,777] 46 root - INFO - Created directory at: artifacts/model_evaluation
+[2026-03-03 01:13:46,863] 58 root - INFO - module 'mlflow' has no attribute 'set_registrty_uri'

@@ -1,0 +1,16 @@
+[2026-03-02 22:10:51,534] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:10:51,537] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:10:51,541] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:10:51,542] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 22:10:51,543] 20 root - INFO - file already exist
+[2026-03-02 22:10:51,548] 12 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 22:10:51,553] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:10:51,555] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:10:51,558] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:10:51,561] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 22:10:51,703] 23 root - INFO - stage: Data Validation Stage Completed
+
+
+[2026-03-02 22:10:51,704] 35 root - INFO - ConfigurationManager.get_data_Transformation_config() missing 1 required positional argument: 'self'

@@ -1,0 +1,5 @@
+[2026-03-03 02:03:16,326] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-03-03 02:03:16,336] 97 werkzeug - INFO -  * Debugger PIN: 715-582-652
+[2026-03-03 02:05:16,942] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:05:16] "GET / HTTP/1.1" 200 -
+[2026-03-03 02:05:37,266] 97 werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 02:05:37] "POST /predict HTTP/1.1" 200 -
+[2026-03-03 02:06:54,415] 97 werkzeug - INFO -  * Detected change in 'D:\\GenAI_Projects_by_Krishna_Naik\\End_to_End_project_with_Pipelines_and_MLFLow\\src\\datascience\\pipeline\\prediction_pipeline.py', reloading

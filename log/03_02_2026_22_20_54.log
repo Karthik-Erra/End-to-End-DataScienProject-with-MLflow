@@ -1,0 +1,20 @@
+[2026-03-02 22:20:57,257] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:20:57,257] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:20:57,260] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:20:57,261] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 22:20:57,261] 20 root - INFO - file already exist
+[2026-03-02 22:20:57,264] 12 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 22:20:57,266] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:20:57,267] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:20:57,269] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:20:57,271] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 22:20:57,299] 23 root - INFO - stage: Data Validation Stage Completed
+
+
+[2026-03-02 22:20:57,299] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 22:20:57,299] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 22:20:57,306] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 22:20:57,308] 46 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-02 22:20:57,410] 35 root - INFO - join() got an unexpected keyword argument 'index'

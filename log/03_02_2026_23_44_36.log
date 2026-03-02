@@ -1,0 +1,30 @@
+[2026-03-02 23:44:53,374] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:44:53,375] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:44:53,376] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:44:53,376] 46 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-02 23:44:53,376] 20 root - INFO - file already exist
+[2026-03-02 23:44:53,390] 13 root - INFO - stage: Data Ingestion Stage Completed 
+
+
+[2026-03-02 23:44:53,392] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:44:53,396] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:44:53,400] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:44:53,402] 46 root - INFO - Created directory at: artifacts/data_validation
+[2026-03-02 23:44:53,607] 24 root - INFO - stage: Data Validation Stage Completed
+
+
+[2026-03-02 23:44:53,617] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:44:53,625] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:44:53,635] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:44:53,639] 46 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-02 23:44:53,909] 19 root - INFO - Splitting data into training and test sets
+[2026-03-02 23:44:53,909] 20 root - INFO - (1199, 12)
+[2026-03-02 23:44:53,909] 21 root - INFO - (400, 12)
+[2026-03-02 23:44:53,909] 34 root - INFO - Stage: Data Transformation Stage Completed
+
+
+[2026-03-02 23:44:53,920] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 23:44:53,931] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 23:44:53,936] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 23:44:53,943] 46 root - INFO - Created directory at: artifacts/model_trainer
+[2026-03-02 23:44:53,945] 46 root - INFO - 'ModelTainerConfig' object has no attribute 'train'

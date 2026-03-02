@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wine Quality Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #8e44ad, #3498db);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input[type="number"]:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #3498db;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #2c80b4;
+        }
+
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f4f6f7;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Wine Quality Prediction</h1>
+
+    <form action="/predict" method="post">
+
+        <div class="form-group">
+            <label>Fixed Acidity</label>
+            <input type="number" step="any" name="fixed_acidity" required>
+        </div>
+
+        <div class="form-group">
+            <label>Volatile Acidity</label>
+            <input type="number" step="any" name="volatile_acidity" required>
+        </div>
+
+        <div class="form-group">
+            <label>Citric Acid</label>
+            <input type="number" step="any" name="citric_acid" required>
+        </div>
+
+        <div class="form-group">
+            <label>Residual Sugar</label>
+            <input type="number" step="any" name="residual_sugar" required>
+        </div>
+
+        <div class="form-group">
+            <label>Chlorides</label>
+            <input type="number" step="any" name="chlorides" required>
+        </div>
+
+        <div class="form-group">
+            <label>Free Sulfur Dioxide</label>
+            <input type="number" step="any" name="free_sulfur_dioxide" required>
+        </div>
+
+        <div class="form-group">
+            <label>Total Sulfur Dioxide</label>
+            <input type="number" step="any" name="total_sulfur_dioxide" required>
+        </div>
+
+        <div class="form-group">
+            <label>Density</label>
+            <input type="number" step="any" name="density" required>
+        </div>
+
+        <div class="form-group">
+            <label>pH</label>
+            <input type="number" step="any" name="pH" required>
+        </div>
+
+        <div class="form-group">
+            <label>Sulphates</label>
+            <input type="number" step="any" name="sulphates" required>
+        </div>
+
+        <div class="form-group">
+            <label>Alcohol</label>
+            <input type="number" step="any" name="alcohol" required>
+        </div>
+
+        <button type="submit" class="btn">Predict</button>
+
+    </form>
+
+    <!-- Prediction Result -->
+    <div class="result-box">
+        Predicted Quality: {{ prediction_text }}
+    </div>
+
+</div>
+
+</body>
+</html>

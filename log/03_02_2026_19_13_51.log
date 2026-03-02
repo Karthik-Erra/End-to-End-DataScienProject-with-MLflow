@@ -1,0 +1,4 @@
+[2026-03-02 19:13:52,021] 27 root - INFO - Yaml File: config\config.yaml loaded successfully
+[2026-03-02 19:13:52,024] 27 root - INFO - Yaml File: Params.yaml loaded successfully
+[2026-03-02 19:13:52,026] 27 root - INFO - Yaml File: schema.yaml loaded successfully
+[2026-03-02 19:13:52,026] 12 root - INFO - "'ConfigBox' object has no attribute 'artifacts_roots'"
